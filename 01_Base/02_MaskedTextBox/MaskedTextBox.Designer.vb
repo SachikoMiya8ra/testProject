@@ -22,10 +22,10 @@ Partial Class MaskedTextBox
     'コード エディタを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox
-        Me.TextBox1 = New System.Windows.Forms.TextBox
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.Label2 = New System.Windows.Forms.Label
+        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'MaskedTextBox1
@@ -40,7 +40,7 @@ Partial Class MaskedTextBox
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(87, 57)
+        Me.TextBox1.Location = New System.Drawing.Point(87, 72)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(131, 19)
         Me.TextBox1.TabIndex = 1
